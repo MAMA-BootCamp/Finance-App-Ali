@@ -7,6 +7,8 @@ html{
     font-size: 10px;
 }
 
+
+ /* ------------ HEADER ------------ */
 header{
     display: flex;
     align-items: center;
@@ -18,8 +20,8 @@ header{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 0 0 1rem 1rem;
 }
+
 .leftHeader{
-    /* display: flex; */
     flex-basis: 10%
 }
 .leftHeader img{
@@ -35,7 +37,6 @@ height: auto;
 }
 
 .bottomHeader{
- /* background-color: brown; */
 display: flex;
 align-items: flex-start;
 justify-content: space-between;
@@ -45,6 +46,61 @@ justify-content: space-between;
 .leftHeader {
     display: flex;
 }
+
+
+ /* ------------ MAIN ------------ */
+
+ main{
+     margin-top: 2rem;
+     /* width: 100%; */
+ }
+
+  /* ------------ Wallet ------------ */
+
+.wallet{
+    display: flex;
+    border-radius: 1rem;
+    width: 90%;
+    margin: auto;
+    padding: .5rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.leftWallet{
+margin-right: .2rem;
+width: ;
+}
+
+.rightWallet{
+    display: flex;
+    flex-direction: column;
+
+    justify-content:center;
+    flex-basis: 80%
+
+}
+
+.topRightWallet{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.bottomRightWallet{
+    display: flex;
+    justify-content: space-between;
+
+}
+.iconAndText{
+    display: flex;
+}
+.arrowIcon{
+    display: flex;
+    align-items: flex-end;
+}
+
+
+
+  /* ------------ Options ------------ */
 
 
 
